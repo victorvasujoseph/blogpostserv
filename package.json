@@ -1,0 +1,17 @@
+{
+  "name": "blogpostserv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server -w db.json -p 3010",
+    "tunnel":"ngrok http 3010",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1",
+    "ngrok": "^3.2.7"
+  }
+}
